@@ -1,0 +1,17 @@
+
+
+install :
+  -  go get "github.com/jinzhu/gorm"
+  -  go get "github.com/jinzhu/gorm/dialects/mysql"
+  -  go get "github.com/gorilla/mux"
+
+structure :
+  - cmd /
+    - main / 
+      - main.go
+  - pkg /
+    - utils /
+    - controllers /
+    - routes /
+    - models /
+    - config /
